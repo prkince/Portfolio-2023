@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149626680-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-149626680-4');
+    </script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Pierrick Delage - Full-Stack Developer</title>
+    <meta name="description"
+          content="Get to know more about me and follow my projects as a web developer."/>
+
+    <!-- Facebook Open Graph data -->
+    <meta property="og:title" content="<%= meta_title %>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="<%= request.original_url %>" />
+    <meta property="og:image" content="<%= meta_image %>" />
+    <meta property="og:description" content="<%= meta_description %>" />
+    <meta property="og:site_name" content="<%= meta_title %>" />
+
+    <!--Inter UI font-->
+    <link href="https://rsms.me/inter/inter-ui.css" rel="stylesheet">
+
+    <!--vendors styles-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+    <!-- Bootstrap CSS / Color Scheme -->
+    <link rel="stylesheet" href="css/default.css" id="theme-color">
+</head>
+<body>
+
+<!--navigation-->
+<section class="smart-scroll">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a class="navbar-brand heading-black" href="index.html">
+                Pierrick Delage
+            </a>
+            <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span data-feather="grid"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="https://github.com/prkince">Github</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="https://www.linkedin.com/in/pierrick-delage/">LinkedIn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#112;&#105;&#101;&#114;&#114;&#105;&#99;&#107;&#64;&#100;&#101;&#108;&#97;&#103;&#101;&#46;&#100;&#101;&#118;">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</section>
+
+<!--header-->
+<section class="py-7 py-md-0" id="home">
+    <div class="container">
+        <div class="row vh-md-100">
+            <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center">
+                <h1 class="heading-black text-capitalize"> Pierrick DELAGE <br /> Full Stack Developer</h1>
+                <p class="lead py-3">Front End Expert - Product Builder - Agility Enthusiast - International Business and Operations</p>
+                <a class="nav-link page-scroll" href="#resume">
+                    <button class="btn btn-primary d-inline-flex flex-row align-items-center">
+                        See my resume
+                        <em class="ml-2" data-feather="arrow-right"></em>
+                    </button>
+                </a>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- resume section -->
+<section class="pt-6 pb-7" id="resume">
+    <div class="container">
+        <div class="row mt-5">
+            <iframe class="col-12 mx-auto text-center"
+                src="https://pierrick.delage.dev/resume.pdf"
+                width="100%"
+                height="600px"
+                loading="lazy"
+                title="resume-pierrick-delage"
+            ></iframe>
+        </div>
+    </div>
+</section>
+
+<!--footer-->
+<footer class="py-6">
+    <div class="container">
+        <div class="row mt-2">
+            <div class="col-12 text-muted text-center small-xl">
+                    <div>&copy;
+                        2019 - <script>document.write(new Date().getFullYear());</script>
+                        Pierrick Delage. All Rights Reserved.
+                    </div>
+                    <div>Designed &amp; Developed by
+                        <a href="https://www.delage.dev/" target="_blank">
+                            delage.dev</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--scroll to top-->
+<div class="scroll-top">
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+</div>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
