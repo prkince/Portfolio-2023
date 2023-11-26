@@ -3033,6 +3033,7 @@ input[type="button"].btn-block {
   padding-bottom: 0.25rem; }
 
 .navbar-collapse {
+  background: rgba(0, 0, 0, 0.6);
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   -ms-flex-positive: 1;
