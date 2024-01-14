@@ -6,7 +6,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149626680-4"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-149626680-4');
@@ -20,12 +24,13 @@
           content="Get to know more about me and follow my projects as a web developer."/>
 
     <!-- Facebook Open Graph data -->
-    <meta property="og:title" content="Pierrick Delage - Portfolio" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://delage.dev" />
-    <meta property="og:image" content="https://res.cloudinary.com/dovu27lye/image/upload/v1580889158/portfolio/pierrick_background_picture_desktop_vetlsn.jpg" />
-    <meta property="og:description" content="Get to know more about me and follow my projects as a web developer." />
-    <meta property="og:site_name" content="Pierrick Delage - Portfolio" />
+    <meta property="og:title" content="Pierrick Delage"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://delage.dev"/>
+    <meta property="og:image"
+          content="https://res.cloudinary.com/dovu27lye/image/upload/v1580889158/portfolio/pierrick_background_picture_desktop_vetlsn.jpg"/>
+    <meta property="og:description" content="Get to know more about me and follow my projects as a web developer."/>
+    <meta property="og:site_name" content="Pierrick Delage"/>
 
     <!--Inter UI font-->
     <link href="https://rsms.me/inter/inter-ui.css" rel="stylesheet">
@@ -61,10 +66,12 @@
                         <a class="nav-link page-scroll" target="_blank" href="https://github.com/prkince">Github</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" target="_blank" href="https://www.linkedin.com/in/pierrick-delage/">LinkedIn</a>
+                        <a class="nav-link page-scroll" target="_blank"
+                           href="https://www.linkedin.com/in/pierrick-delage/">LinkedIn</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#112;&#105;&#101;&#114;&#114;&#105;&#99;&#107;&#64;&#100;&#101;&#108;&#97;&#103;&#101;&#46;&#100;&#101;&#118;">Contact</a>
+                        <a class="nav-link page-scroll"
+                           href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#112;&#105;&#101;&#114;&#114;&#105;&#99;&#107;&#64;&#100;&#101;&#108;&#97;&#103;&#101;&#46;&#100;&#101;&#118;">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -77,15 +84,232 @@
     <div class="container">
         <div class="row vh-md-100">
             <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center">
-                <h1 class="heading-black text-capitalize"> Pierrick DELAGE <br /> Full Stack Developer</h1>
-                <p class="lead py-3">Front End Expert - Product Builder - Agility Enthusiast - International Business and Operations</p>
-                <a class="nav-link page-scroll" href="#resume">
-                    <button class="btn btn-primary d-inline-flex flex-row align-items-center">
-                        See my resume
-                        <em class="ml-2" data-feather="arrow-right"></em>
-                    </button>
-                </a>
+                <h1 class="heading-black text-capitalize"> Pierrick DELAGE <br/> Full Stack Developer </h1>
+                <p class="lead py-3">Front End Expert - Product Builder - Agility Enthusiast - International Business
+                    and Operations</p>
+                <div class="arrow bounce">
+                    <a class="nav-link page-scroll fa fa-arrow-down fa-3x" href="#about"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+<!-- about section -->
+<section class="container" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mx-auto my-auto text-center">
+                <h1 class="heading-black text-capitalize">About</h1>
+                <p class="lead py-3 text-justify">Full-Stack Developer with proven experience at scale up startups,
+                    enjoy product and
+                    agility. Expertise in areas such
+                    as maintaining clean code, implementing automated functional and unit tests, DevOps, and
+                    co-designing complicated
+                    solutions. Proficient in fostering strong relationships with both team members and users, to improve
+                    the app’s
+                    codebase for enhanced reusability. Skilled in gaining knowledge from senior developers while also
+                    mentoring junior
+                    developers. Demonstrated ability to oversee projects from creation phase to release. Eager to tackle
+                    challenging
+                    tasks and consistently exploring new ways to optimize user productivity.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- core competencies section -->
+<section class="container" id="competencies">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-12 mx-auto my-auto">
+                <h1 class="heading-black text-capitalize text-center">Core Competencies</h1>
+                <div class="row align-center">
+                    <div class="col mt-5 d-flex justify-content-center">
+                        <div class="card" style="width: 20rem; height: 25rem;">
+                            <h5 class="card-title px-4 py-4">Front</h5>
+                            <div class="card-body">
+                                <div class="text-center d-flex flex-column justify-content-center">
+                                    <p class="card-text"><i class="fab fa-vuejs"></i> VueJS 3</p>
+                                    <p class="card-text"><i class="fab fa-js"></i> ES6 JavaScript</p>
+                                    <p class="card-text"><i class="fab fa-html5"></i> HTML 5</p>
+                                    <p class="card-text"><i class="fab fa-sass"></i> Sass</p>
+                                    <p class="card-text"><i class="fa fa-check-circle"></i> Jest</p>
+                                    <p class="card-text"><i class="fa fa-exclamation-circle"></i> Taiko</p>
+                                    <p class="card-text"><i class="fab fa-react"></i> React</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mt-5 d-flex justify-content-center">
+                        <div class="card" style="width: 20rem; height: 25rem;">
+                            <h5 class="card-title px-4 py-4">Back</h5>
+                            <div class="card-body">
+                                <div class="text-center d-flex flex-column justify-content-center">
+                                    <p class="card-text"><i class="fab fa-python"></i> Python 3.8</p>
+                                    <p class="card-text"><i class="fa fa-database"></i> PostgreSQL</p>
+                                    <p class="card-text"><i class="fab fa-docker"></i> Docker</p>
+                                    <p class="card-text"><i class="fab fa-node"></i> NodeJS</p>
+                                    <p class="card-text"><i class="fab fa-github"></i>
+                                        Github (Actions) / Jenkins
+                                    </p>
+                                    <p class="card-text"><i class="fab fa-aws"></i> AWS</p>
+                                    <p class="card-text"><i class="fa fa-gem"></i> Ruby On Rails</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mt-5 d-flex justify-content-center">
+                        <div class="card" style="width: 20rem; height: 25rem;">
+                            <h5 class="card-title px-4 py-4">Other</h5>
+                            <div class="card-body">
+                                <div class="text-center d-flex flex-column justify-content-center">
+                                    <p class="card-text"><i class="fa fa-briefcase"></i> Jira / Notions</p>
+                                    <p class="card-text"><i class="fa fa-layer-group"></i> Heap</p>
+                                    <p class="card-text"><i class="fab fa-figma"></i> Figma</p>
+                                    <p class="card-text"><i class="fa fa-flask"></i> TDD</p>
+                                    <p class="card-text"><i class="fa fa-users"></i> Agile software development</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- contributions section -->
+<section class="container" id="contributions">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mx-auto my-auto">
+                <h1 class="heading-black text-center text-capitalize">Key Contributions</h1>
+                <ul class="py-3">
+                    <li class="lead">Spearheaded the formation of a new internal engineering team, increasing the
+                        headcount 10X in 3 years
+                    </li>
+                    <li class="lead">Created a new scrum team, product road map, first release and sprint demo in 2
+                        months turnaround time
+                    </li>
+                    <li class="lead">Updated and added more tests to the app, from 200 unit tests to around 3000 now,
+                        with the choice of technology and implementation of acceptance tests
+                    </li>
+                    <li class="lead">Helped to materialize a new design system, implement key features and upgrade all
+                        components in the app
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- projects section -->
+<section class="container" id="projects">
+    <h1 class="heading-black text-capitalize text-center">Personal Projects</h1>
+    <div class="row align-center">
+        <div class="col mt-5 d-flex justify-content-center">
+            <div class="card" style="width: 20rem; height: 34rem;">
+                <img src="https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1580894285/portfolio/ship_antiques_accueil_e8mydf.png"
+                     class="card-img-top" style="height: 12rem" alt="shipantiques">
+                <div class="card-body">
+                    <h5 class="card-title">Ship Antiques</h5>
+                    <p class="card-text">I redesigned and developed the company's website, leveraging my logistics
+                        expertise
+                        throughout the process. After presenting initial ideas with a template, I built the app from
+                        scratch using
+                        Ruby on Rails.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://github.com/prkince/shipantiques_v2" class="btn btn-primary">See the project on
+                        Github</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mt-5 d-flex justify-content-center">
+            <div class="card" style="width: 20rem; height: 34rem;">
+                <img src="https://res.cloudinary.com/dovu27lye/image/upload/v1664396972/portfolio/yoteu_home_novkfj.png"
+                     class="card-img-top" style="height: 12rem" alt="yoteu">
+                <div class="card-body">
+                    <h5 class="card-title">Yoteu</h5>
+                    <p class="card-text">Beautifully crafted ship models from the island of Tahiti. Order online and
+                        have it
+                        shipped directly to you. Creation of all the CRUD elements, admin and customer accounts,
+                        allowing online
+                        payment using Stripe tool. Technology: Ruby on Rails.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://github.com/prkince/yoteu" class="btn btn-primary">See the project on Github</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mt-5 d-flex justify-content-center">
+            <div class="card" style="width: 20rem; height: 34rem;">
+                <img src="https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1584628837/portfolio/plan_bidon_home_qczxci.png"
+                     class="card-img-top" alt="planbidon" style="height: 12rem">
+                <div class="card-body">
+                    <h5 class="card-title">PlanBidon</h5>
+                    <p class="card-text">Tested 🔬, traced 🗺️ & engaged ✊ bike trip itineraries around Paris and
+                        (sometimes) further
+                        away 🏔️. Creation of admin and customer accounts, adding all the CRUD element, use of Strava
+                        API, JS library
+                        Leafleet and OpenStreetMap. Technology: Ruby on Rails & Javascript.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://github.com/prkince/planbidon" class="btn btn-primary">See the project on Github</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row align-center">
+        <div class="col mt-5 d-flex justify-content-center">
+            <div class="card" style="width: 20rem; height: 34rem;">
+                <img src="https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1589633386/portfolio/vuejsgame.png"
+                     class="card-img-top" alt="vuejsgame" style="height: 12rem">
+                <div class="card-body">
+                    <h5 class="card-title">VueJ Js Game</h5>
+                    <p class="card-text">Online game made using Vue.js and a minimalist design.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://github.com/prkince/Game-vuejs" class="btn btn-primary">See the project on
+                        Github</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mt-5 d-flex justify-content-center">
+            <div class="card" style="width: 20rem; height: 34rem;">
+                <img src="https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1581333751/portfolio/equalpath_accueil_hr9al6.png"
+                     class="card-img-top" alt="equalpath" style="height: 12rem">
+                <div class="card-body">
+                    <h5 class="card-title">Equal Path</h5>
+                    <p class="card-text">Platform for finding your dream job. Created an AirBnB-like clone and Rails
+                        prototype for
+                        Le Wagon's final project in 2 weeks with a team of 4. Uses classic tools with Javascript and
+                        CSS.
+                        Technology: Ruby on Rails.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://github.com/prkince/equal-path" class="btn btn-primary">See the project on
+                        Github</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mt-5 d-flex justify-content-center">
+            <div class="card" style="width: 20rem; height: 34rem;">
+                <img src="https://res.cloudinary.com/dovu27lye/image/upload/c_scale,w_250/v1580894285/portfolio/palm_accueil_dnqhkt.png"
+                     class="card-img-top" alt="palm" style="height: 12rem">
+                <div class="card-body">
+                    <h5 class="card-title">Palm</h5>
+                    <p class="card-text">Palm-travel website allowing you to book islands all over the world. Le Wagon
+                        school
+                        project. Creation of our first MVC. Technology: Ruby on Rails.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://github.com/prkince/palm" class="btn btn-primary">See the project on Github</a>
+                </div>
             </div>
         </div>
     </div>
@@ -93,14 +317,15 @@
 
 <!-- resume section -->
 <section class="pt-6 pb-7" id="resume">
+    <h1 class="heading-black text-capitalize text-center">Resume</h1>
     <div class="container">
-        <div class="row mt-5">
+        <div class="row mt-5 mx-3">
             <iframe class="col-12 mx-auto text-center"
-                src="resume.pdf"
-                width="100%"
-                height="800px"
-                loading="lazy"
-                title="resume-pierrick-delage"
+                    src="resume.pdf"
+                    width="100%"
+                    height="800px"
+                    loading="lazy"
+                    title="resume-pierrick-delage"
             ></iframe>
         </div>
     </div>
@@ -111,14 +336,15 @@
     <div class="container">
         <div class="row mt-2">
             <div class="col-12 text-muted text-center small-xl">
-                    <div>&copy;
-                        2019 - <script>document.write(new Date().getFullYear());</script>
-                        Pierrick Delage. All Rights Reserved.
-                    </div>
-                    <div>Designed &amp; Developed by
-                        <a href="https://www.delage.dev/" target="_blank">
-                            delage.dev</a>
-                    </div>
+                <div>&copy;
+                    2019 -
+                    <script>document.write(new Date().getFullYear());</script>
+                    Pierrick Delage. All Rights Reserved.
+                </div>
+                <div>Designed &amp; Developed by
+                    <a href="https://www.delage.dev/" target="_blank">
+                        delage.dev</a>
+                </div>
             </div>
         </div>
     </div>
@@ -134,6 +360,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 <script src="js/scripts.js"></script>
 </body>
 </html>
