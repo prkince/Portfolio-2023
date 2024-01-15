@@ -3283,10 +3283,14 @@ input[type="button"].btn-block {
 
 .card-dr {
   width: 100%!important;
+  margin-left: 15px;
+  margin-right: 15px;
   height: 65rem!important}
   @media (max-width: 420px) {
     .card-dr {
       height: 75rem!important;
+      margin-left: 0;
+      margin-right: 0;
     }
   }
 .card-dr > .card-img-top {
@@ -3312,7 +3316,7 @@ input[type="button"].btn-block {
   }
 }
 .card-core > .card-img-top {
-  height: 30rem!important;
+  height: 17rem!important;
 }
 @media (max-width: 420px) {
   .card-core > .card-img-top{
