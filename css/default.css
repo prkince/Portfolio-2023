@@ -3281,7 +3281,48 @@ input[type="button"].btn-block {
     .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
       color: #ffffff; }
 
+.card-dr {
+  width: 100%!important;
+  height: 65rem!important}
+  @media (max-width: 420px) {
+    .card-dr {
+      height: 75rem!important;
+    }
+  }
+.card-dr > .card-img-top {
+  height: 30rem!important;
+}
+  @media (max-width: 420px) {
+    .card-dr > .card-img-top{
+      height: 13rem!important;
+    }
+  }
+
+@media (max-width: 420px) {
+  .card-core-container {
+    min-width: 100%;
+  }
+}
+
+.card-core {
+  height: 40rem!important}
+@media (max-width: 420px) {
+  .card-core {
+    min-width: 20rem;
+  }
+}
+.card-core > .card-img-top {
+  height: 30rem!important;
+}
+@media (max-width: 420px) {
+  .card-core > .card-img-top{
+    height: 13rem!important;
+  }
+}
+
 .card {
+  width: 20rem;
+  height: 35rem;
   position: relative;
   display: -ms-flexbox;
   display: flex;
@@ -3292,7 +3333,16 @@ input[type="button"].btn-block {
   background-color: #263238;
   background-clip: border-box;
   border: 0px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.3rem; }
+  border-radius: 0.3rem;
+}
+  @media (max-width: 420px) {
+    .card {
+      width: 100%;
+    }
+    .card-img-top {
+      height: 17rem;
+    }
+  }
   .card > hr {
     margin-right: 0;
     margin-left: 0; }
