@@ -7552,6 +7552,17 @@ footer a {
   }
 }
 
+footer {
+  padding-bottom: 20px;
+  padding-top: 24px;
+}
+@media (max-width: 430px) {
+  footer {
+    padding-bottom: 96px;
+    padding-top: 24px;
+  }
+}
+
 .footer-links {
   display: flex;
   align-items: center;
