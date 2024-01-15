@@ -7551,3 +7551,32 @@ footer a {
     transform: translateY(-15px);
   }
 }
+
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: rgba(255,255,255, 0.88);
+  opacity: 0.8;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 0px 10px;
+#cv-img {
+  margin-bottom: 8px;
+  width: 34px;
+  height: 31px;
+  margin-right: -5px;
+}
+#flag-img {
+  margin-bottom: 5px;
+  width: 36px;
+  height: 39px;
+  margin-right: -5px;
+}
+}
+.footer-links a:hover {
+  opacity: 1;
+  color: rgba(255,255,255, 0.88);
+  height: 105%;
+}
